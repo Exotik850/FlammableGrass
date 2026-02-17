@@ -1,0 +1,11 @@
+{
+  "_BaseAssetPath": "Server/Item/Items/Soil/Grass/Soil_Grass.json",
+  "Tags": {
+    "Type": [
+      {
+        "_op": "add",
+        "_value": "Grass"
+      }
+    ]
+  }
+}

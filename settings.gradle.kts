@@ -1,4 +1,6 @@
-rootProject.name = "dev.hytalemodding"
+import dev.scaffoldit.hytale.wire.HytaleManifest
+
+rootProject.name = "FlammableGrass"
 
 plugins {
     // See documentation on https://scaffoldit.dev
@@ -21,8 +23,14 @@ hytale {
     }
 
     manifest {
-        Group = "HytaleModding"
-        Name = "ExamplePlugin"
-        Main = "dev.hytalemodding.ExamplePlugin"
+        Group = "Exotik850"
+        Name = "[Exotik's] Flammable Grass"
+        Main = "dev.byt3.flammablegrass.FlammableGrassPlugin"
+        Version = "0.0.1"
+        Authors = listOf(
+            HytaleManifest.Author("Exotik850")
+        )
+        IncludesAssetPack = true
+        Description = "A plugin that makes grass flammable. (at your own risk)"
     }
 }

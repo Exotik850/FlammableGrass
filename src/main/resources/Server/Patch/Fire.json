@@ -1,0 +1,26 @@
+{
+  "_BaseAssetPath": "Server/Item/Block/Fluids/Fire.json",
+  "Ticker": {
+    "Flammability": [
+      {
+        "_op": "addAfter",
+        "TagPattern": {
+          "Op": "And",
+          "Patterns": [
+            {
+              "Op": "Equals",
+              "Tag": "Grass"
+            },
+            {
+              "Op": "Equals",
+              "Tag": "Soil"
+            }
+          ]
+        },
+        "ResultingBlock": "Soil_Dirt_Burnt",
+        "BurnChance": 0.7,
+        "Priority": 5
+      }
+    ]
+  }
+}
