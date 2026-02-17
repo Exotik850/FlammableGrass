@@ -10,7 +10,9 @@
     ],
     "DisabledByDefault": false,
     "IncludesAssetPack": true,
-    "Dependencies": {},
+    "Dependencies": {
+        "com.hypersonicsharkz:Hytalor": "*"
+    },
     "OptionalDependencies": {},
     "ServerVersion": "*",
     "Main": "dev.byt3.flammablegrass.FlammableGrassPlugin"
